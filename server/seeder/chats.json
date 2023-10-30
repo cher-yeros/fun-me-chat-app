@@ -1,0 +1,21 @@
+[{
+        "messege": "hello men",
+        "senderId": 1,
+        "receiverId": 2
+    },
+    {
+        "messege": "world men",
+        "senderId": 2,
+        "receiverId": 1
+    },
+    {
+        "messege": "simi mena men",
+        "senderId": 3,
+        "receiverId": 2
+    },
+    {
+        "messege": "kalu mena men",
+        "senderId": 2,
+        "receiverId": 4
+    }
+]

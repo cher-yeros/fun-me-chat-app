@@ -1,0 +1,46 @@
+### Register api
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "email": "hells@gmail.com",
+    "password": "hdsjflka"
+}
+
+### Login api
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "hello",
+    "password": "password"
+}
+
+### Get Users
+
+GET http://localhost:5000/users/2
+Content-Type: application/json
+
+
+
+### Get Chats
+
+POST http://localhost:5000/chats
+Content-Type: application/json
+
+{
+    "sender": 1,
+    "receiver": 2
+}
+
+### Update chat seen
+
+POST http://localhost:5000/chats/makeseen
+Content-Type: application/json
+
+{
+    "sender": 2,
+    "thisUser": 1
+}
